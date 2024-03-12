@@ -1,0 +1,7 @@
+C:/Users/pbsun/Downloads/mpi2324-main/mpi2324_main/cmake-build-debug/CMakeFiles/repaso_examen.dir
+C:/Users/pbsun/Downloads/mpi2324-main/mpi2324_main/cmake-build-debug/CMakeFiles/correccion.dir
+C:/Users/pbsun/Downloads/mpi2324-main/mpi2324_main/cmake-build-debug/CMakeFiles/suma_imagenes.dir
+C:/Users/pbsun/Downloads/mpi2324-main/mpi2324_main/cmake-build-debug/CMakeFiles/espejo.dir
+C:/Users/pbsun/Downloads/mpi2324-main/mpi2324_main/cmake-build-debug/CMakeFiles/sobel.dir
+C:/Users/pbsun/Downloads/mpi2324-main/mpi2324_main/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/pbsun/Downloads/mpi2324-main/mpi2324_main/cmake-build-debug/CMakeFiles/rebuild_cache.dir

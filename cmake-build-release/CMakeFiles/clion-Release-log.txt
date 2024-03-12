@@ -1,0 +1,186 @@
+"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -DCMAKE_PROJECT_TOP_LEVEL_INCLUDES=conan_provider.cmake "-DCONAN_COMMAND=C:\Program Files\Conan\conan\conan.exe" -G Ninja -S C:\Users\pbsun\Downloads\mpi2324-main\mpi2324_main -B C:\Users\pbsun\Downloads\mpi2324-main\mpi2324_main\cmake-build-release
+-- CMake-Conan: first find_package() found. Installing dependencies with Conan
+-- CMake-Conan: Checking if a default profile exists
+C:\Users\pbsun\.conan2\profiles\default
+-- CMake-Conan: cmake_system_name=Windows
+-- CMake-Conan: cmake_system_processor=x86_64
+-- CMake-Conan: CMake compiler=MSVC
+-- CMake-Conan: CMake compiler version=19.39.33519.0
+-- CMake-Conan: CMake compiler.runtime=dynamic
+-- CMake-Conan: [settings] compiler=msvc
+-- CMake-Conan: [settings] compiler.version=193
+-- CMake-Conan: [settings] compiler.runtime=dynamic
+-- CMake-Conan: Creating profile C:/Users/pbsun/Downloads/mpi2324-main/mpi2324_main/cmake-build-release/conan_host_profile
+-- CMake-Conan: Profile: 
+[settings]
+arch=x86_64
+os=Windows
+compiler=msvc
+compiler.version=193
+compiler.runtime=dynamic
+compiler.cppstd=17
+build_type=Release
+[conf]
+tools.cmake.cmaketoolchain:generator=Ninja
+tools.build:compiler_executables={"c":"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe","cpp":"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe"}
+
+-- CMake-Conan: Installing single configuration Release
+-- CMake-Conan: conan install C:/Users/pbsun/Downloads/mpi2324-main/mpi2324_main -of=C:/Users/pbsun/Downloads/mpi2324-main/mpi2324_main/cmake-build-release/conan --profile:host=default;--profile:host=C:/Users/pbsun/Downloads/mpi2324-main/mpi2324_main/cmake-build-release/conan_host_profile;--profile:build=default;--build=missing
+
+======== Input profiles ========
+Profile host:
+[settings]
+arch=x86_64
+build_type=Release
+compiler=msvc
+compiler.cppstd=17
+compiler.runtime=dynamic
+compiler.runtime_type=Release
+compiler.version=193
+os=Windows
+[conf]
+tools.build:compiler_executables={'c': 'C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe', 'cpp': 'C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe'}
+tools.cmake.cmaketoolchain:generator=Ninja
+
+Profile build:
+[settings]
+arch=x86_64
+build_type=Release
+compiler=gcc
+compiler.cppstd=gnu17
+compiler.libcxx=libstdc++11
+compiler.version=13
+os=Windows
+
+
+======== Computing dependency graph ========
+Graph root
+    conanfile.py: C:/Users/pbsun/Downloads/mpi2324-main/mpi2324_main\conanfile.py
+Requirements
+    brotli/1.1.0#d56d7bb9ca722942aba17369cb5c0519 - Cache
+    bzip2/1.0.8#457c272f7da34cb9c67456dd217d36c4 - Cache
+    flac/1.4.3#be3f4af9f40f5bec93803bda59addac6 - Cache
+    fmt/10.2.1#9199a7a0611866dea5c8849a77467b25 - Cache
+    freetype/2.13.2#fa35264c88edc6421a850d08c67630f4 - Cache
+    libpng/1.6.42#fdba4ebf89df3c55d6db0145a2a66a24 - Cache
+    minimp3/cci.20211201#045f7bf02ba91cce9a8730ce075705e7 - Cache
+    ogg/1.3.5#062626875f5c8c59f069f76f148098ef - Cache
+    openal-soft/1.22.2#b35bbc35b64d6c971c7fe600b54bba7b - Cache
+    opengl/system#b29589c04d6df84c110d6acb066ab653 - Cache
+    sfml/2.6.1#a09fa95bd90d736d49b2de6418f5e909 - Cache
+    stb/cci.20230920#9792498b81cf34a90138d239e36b0bf8 - Cache
+    vorbis/1.3.7#37e58f52e59a6232199b34ef402714a6 - Cache
+    zlib/1.3.1#af8f2ef3d8e0fddf1975281d7fe43bf6 - Cache
+Resolved version ranges
+    zlib/[>=1.2.11 <2]: zlib/1.3.1
+
+======== Computing necessary packages ========
+fmt/10.2.1: Checking 3 compatible configurations
+fmt/10.2.1: Main binary package '1e0b2be5f6fc1e186056c7aabf17e2673b0e9ead' missing. Using compatible package 'bed280a9c51d41820ca64294cf373083ad852aa8': compiler.cppstd=14
+flac/1.4.3: Checking 3 compatible configurations
+flac/1.4.3: Main binary package '2ae195529a63320e2d98a318b406ce6995111502' missing. Using compatible package 'f710e7f7e8379584a8fbad86de2007f08c1bf892': compiler.cppstd=14
+sfml/2.6.1: Checking 3 compatible configurations
+sfml/2.6.1: Main binary package 'd07482a869220c09f3923ce427a195c4783647cd' missing. Using compatible package 'aed15de869e1770425cb7c6db529f666f27496a5': compiler.cppstd=14
+Requirements
+    brotli/1.1.0#d56d7bb9ca722942aba17369cb5c0519:75df3523cadfb3cb5a2c1cc2d61e8c640e1f9b96#249943a2756eb869cac284274651a4ab - Cache
+    bzip2/1.0.8#457c272f7da34cb9c67456dd217d36c4:67bfcb7b4b78262b9d05495e479dcd92f747316b#cea9c0f0dfa41e83aebd5d39c5a5cbf3 - Cache
+    flac/1.4.3#be3f4af9f40f5bec93803bda59addac6:f710e7f7e8379584a8fbad86de2007f08c1bf892#44a51ca0cbfb964e1024c11489bb82cc - Cache
+    fmt/10.2.1#9199a7a0611866dea5c8849a77467b25:bed280a9c51d41820ca64294cf373083ad852aa8#fefff18511eea6864c0f2fe660d02779 - Cache
+    freetype/2.13.2#fa35264c88edc6421a850d08c67630f4:79f73b3fcb4ea3718b05e96b46594ae8f2ec3895#dce2933bb5235691b9db76fc981737ed - Cache
+    libpng/1.6.42#fdba4ebf89df3c55d6db0145a2a66a24:e0d2306461d10438fbd847f0556a0f0ac5653d3a#f9561a82539b5d98122ac38db2260171 - Cache
+    ogg/1.3.5#062626875f5c8c59f069f76f148098ef:7bfde258ff4f62f75668d0896dbddedaa7480a0f#e927a574838328774c00363480fd0711 - Cache
+    openal-soft/1.22.2#b35bbc35b64d6c971c7fe600b54bba7b:7bfde258ff4f62f75668d0896dbddedaa7480a0f#50905f7af3063479df1f84673693c64a - Cache
+    opengl/system#b29589c04d6df84c110d6acb066ab653:da39a3ee5e6b4b0d3255bfef95601890afd80709#0ba8627bd47edc3a501e8f0eb9a79e5e - Cache
+    sfml/2.6.1#a09fa95bd90d736d49b2de6418f5e909:aed15de869e1770425cb7c6db529f666f27496a5#d677a1262d2940a46954e8f44dcde178 - Cache
+    vorbis/1.3.7#37e58f52e59a6232199b34ef402714a6:5716ed60be3e52a680aebcade966a2d4782db011#6bd7f8caee1c94c4eccf2f5b117619d1 - Cache
+    zlib/1.3.1#af8f2ef3d8e0fddf1975281d7fe43bf6:7bfde258ff4f62f75668d0896dbddedaa7480a0f#6c7e76f69e587ea5ef21eef7e7596bb1 - Cache
+Skipped binaries
+    minimp3/cci.20211201, stb/cci.20230920
+
+======== Installing packages ========
+brotli/1.1.0: Already installed! (1 of 12)
+bzip2/1.0.8: Already installed! (2 of 12)
+fmt/10.2.1: Already installed! (3 of 12)
+ogg/1.3.5: Already installed! (4 of 12)
+openal-soft/1.22.2: Already installed! (5 of 12)
+opengl/system: Already installed! (6 of 12)
+zlib/1.3.1: Already installed! (7 of 12)
+flac/1.4.3: Already installed! (8 of 12)
+flac/1.4.3: Appending PATH environment variable: C:\Users\pbsun\.conan2\p\flac48157a3b5e13b\p\bin
+libpng/1.6.42: Already installed! (9 of 12)
+vorbis/1.3.7: Already installed! (10 of 12)
+freetype/2.13.2: Already installed! (11 of 12)
+sfml/2.6.1: Already installed! (12 of 12)
+WARN: deprecated: Usage of deprecated Conan 1.X features that will be removed in Conan 2.X:
+WARN: deprecated:     'cpp_info.names' used in: vorbis/1.3.7, libpng/1.6.42, sfml/2.6.1, ogg/1.3.5, freetype/2.13.2, openal-soft/1.22.2, fmt/10.2.1, flac/1.4.3, bzip2/1.0.8, brotli/1.1.0, zlib/1.3.1
+WARN: deprecated:     'cpp_info.build_modules' used in: bzip2/1.0.8, openal-soft/1.22.2, sfml/2.6.1, freetype/2.13.2
+WARN: deprecated:     'env_info' used in: bzip2/1.0.8, flac/1.4.3, freetype/2.13.2
+WARN: deprecated:     'cpp_info.filenames' used in: opengl/system, flac/1.4.3, freetype/2.13.2
+WARN: deprecated:     'user_info' used in: freetype/2.13.2
+
+======== Finalizing install (deploy, generators) ========
+conanfile.py: Writing generators to C:\Users\pbsun\Downloads\mpi2324-main\mpi2324_main\cmake-build-release\conan\build\Release\generators
+conanfile.py: Generator 'CMakeDeps' calling 'generate()'
+conanfile.py: CMakeDeps necessary find_package() and targets for your CMakeLists.txt
+    find_package(SFML)
+    find_package(fmt)
+    target_link_libraries(... sfml::sfml fmt::fmt)
+conanfile.py: Calling generate()
+conanfile.py: Generators folder: C:\Users\pbsun\Downloads\mpi2324-main\mpi2324_main\cmake-build-release\conan\build\Release\generators
+conanfile.py: CMakeToolchain generated: conan_toolchain.cmake
+conanfile.py: Preset 'conan-release' added to CMakePresets.json. Invoke it manually using 'cmake --preset conan-release' if using CMake>=3.23
+conanfile.py: If your CMake version is not compatible with CMakePresets (<3.23) call cmake like: 'cmake <path> -G Ninja -DCMAKE_TOOLCHAIN_FILE=C:\Users\pbsun\Downloads\mpi2324-main\mpi2324_main\cmake-build-release\conan\build\Release\generators\conan_toolchain.cmake -DCMAKE_POLICY_DEFAULT_CMP0091=NEW -DCMAKE_BUILD_TYPE=Release'
+conanfile.py: CMakeToolchain generated: CMakePresets.json
+conanfile.py: Generating aggregated env files
+conanfile.py: Generated aggregated env files: ['conanbuild.bat', 'conanrun.bat']
+Install finished successfully
+-- CMake-Conan: CONAN_GENERATORS_FOLDER=C:/Users/pbsun/Downloads/mpi2324-main/mpi2324_main/cmake-build-release/conan/build/Release/generators
+-- CMake-Conan: CONANFILE=C:/Users/pbsun/Downloads/mpi2324-main/mpi2324_main/conanfile.py
+-- Could NOT find MPI (missing: MPI_DIR)
+-- CMake-Conan: find_package(PkgConfig) found, 'conan install' already ran
+-- CMake-Conan: find_package(fmt) found, 'conan install' already ran
+-- Conan: Component target declared 'fmt::fmt'
+-- CMake-Conan: find_package(SFML) found, 'conan install' already ran
+-- Conan: Component target declared 'sfml-system'
+-- Conan: Component target declared 'sfml-main'
+-- Conan: Component target declared 'sfml-window'
+-- Conan: Component target declared 'sfml-graphics'
+-- Conan: Component target declared 'sfml-network'
+-- Conan: Component target declared 'sfml-audio'
+-- Conan: Target declared 'sfml::sfml'
+-- CMake-Conan: find_package(opengl_system) found, 'conan install' already ran
+-- Conan: Target declared 'opengl::opengl'
+-- CMake-Conan: find_package(freetype) found, 'conan install' already ran
+-- Conan: Target declared 'Freetype::Freetype'
+-- CMake-Conan: find_package(PNG) found, 'conan install' already ran
+-- Conan: Target declared 'PNG::PNG'
+-- CMake-Conan: find_package(ZLIB) found, 'conan install' already ran
+-- Conan: Target declared 'ZLIB::ZLIB'
+-- CMake-Conan: find_package(BZip2) found, 'conan install' already ran
+-- Conan: Target declared 'BZip2::BZip2'
+-- Conan: Including build module from 'C:/Users/pbsun/.conan2/p/bzip2e06444d88ab4f/p/lib/cmake/conan-official-bzip2-variables.cmake'
+-- CMake-Conan: find_package(brotli) found, 'conan install' already ran
+-- Conan: Component target declared 'brotli::brotlicommon'
+-- Conan: Component target declared 'brotli::brotlidec'
+-- Conan: Component target declared 'brotli::brotlienc'
+-- Conan: Target declared 'brotli::brotli'
+-- Conan: Including build module from 'C:/Users/pbsun/.conan2/p/freetb67fa9613c628/p/lib/cmake/conan-official-freetype-variables.cmake'
+-- CMake-Conan: find_package(flac) found, 'conan install' already ran
+-- Conan: Component target declared 'FLAC::FLAC'
+-- Conan: Component target declared 'FLAC::FLAC++'
+-- Conan: Target declared 'flac::flac'
+-- CMake-Conan: find_package(Ogg) found, 'conan install' already ran
+-- Conan: Component target declared 'Ogg::ogg'
+-- CMake-Conan: find_package(OpenAL) found, 'conan install' already ran
+-- Conan: Target declared 'OpenAL::OpenAL'
+-- Conan: Including build module from 'C:/Users/pbsun/.conan2/p/opena23fd44b9c9a9e/p/lib/cmake/conan-official-openal-soft-variables.cmake'
+-- CMake-Conan: find_package(Vorbis) found, 'conan install' already ran
+-- Conan: Component target declared 'Vorbis::vorbis'
+-- Conan: Component target declared 'Vorbis::vorbisenc'
+-- Conan: Component target declared 'Vorbis::vorbisfile'
+-- Conan: Component target declared 'vorbis::vorbisenc-alias'
+-- Conan: Component target declared 'vorbis::vorbisfile-alias'
+-- Conan: Target declared 'vorbis::vorbis'
+-- Configuring done (9.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/pbsun/Downloads/mpi2324-main/mpi2324_main/cmake-build-release

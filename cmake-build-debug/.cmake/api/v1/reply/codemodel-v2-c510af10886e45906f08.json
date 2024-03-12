@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mpi2324_main",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "correccion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-correccion-Debug-361d091ffe9015911cee.json",
+					"name" : "correccion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "espejo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-espejo-Debug-72a71381ffa77e2ee4ae.json",
+					"name" : "espejo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "repaso_examen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-repaso_examen-Debug-025c77ace2c0cedfa92a.json",
+					"name" : "repaso_examen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sobel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sobel-Debug-b3d2c3b763712152a035.json",
+					"name" : "sobel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "suma_imagenes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-suma_imagenes-Debug-69c21f7a43190a81213a.json",
+					"name" : "suma_imagenes",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/pbsun/Downloads/mpi2324-main/mpi2324_main/cmake-build-debug",
+		"source" : "C:/Users/pbsun/Downloads/mpi2324-main/mpi2324_main"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
